@@ -1,0 +1,953 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=euc-kr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-language" content="ko" />
+<meta name="Title" content="인크루트 - 워드이력서 다운로드" />
+<meta name="Keywords" content="인재검색, 영문이력서, 경력기술서, 자기소개서">
+<meta name="Description" content="구인자를 위한 인재검색, 외국어 이력서 작성가이드">
+<meta name="robots" content="ALL" />
+<meta name="author" content="인크루트(주)" />
+<title>대한민국 표준이력서 - 인크루트 이력서</title>
+
+
+<script language="javascript" src="../g_common/clientscript/ajaxconnector.js"></script>
+<script language="javascript" src="../g_common/clientscript/ajaxhelper.js"></script>
+<script language="javascript" src="../g_common/clientscript/common.js"></script>
+<script language="javascript" src="../g_common/clientscript/cryptohelper.js"></script>
+<script language="JavaScript" src="../g_common/clientscript/logoutevents.js"></script>
+<script language="javascript" src="../l_Common/clientscript/l_common.js"></script>
+<script language="JavaScript" src="../g_common/clientscript/showhidelayer.js"></script>
+
+</head>
+<body topmargin="0" leftmargin="0">
+	
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<tbody>
+<tr>
+	<td align="center">
+	<div style="width:780px; max-width:780px;margin:0 auto">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;" align="center">
+		<tbody>
+
+<tr>
+	<td align="center" height="40" style="font-size:15px; background-color:#dcdcdc; font-weight:bold; color:#000;">오길석 입사지원 합니다.</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:6px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="33%" valign="top" align="center" style="border-left:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:9px 10px 0 10px;">
+					<span style="font-size:12px; line-height:12px; color:#878787;">학력사항</span>
+					<div style="font-size:12px; line-height:18px; color:#000000; margin:2px 0 9px 0;">
+						대학원 석사 졸업
+					</div>
+				</td>
+				<td width="34%" valign="top" align="center" style="border-left:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding:9px 10px 0 10px;">
+					<span style="font-size:12px; line-height:12px; color:#878787;">경력사항</span>
+					<div style="font-size:12px; line-height:18px; color:#000000; margin:2px 0 9px 0;">
+						<table cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;" align="center">
+							<tr>
+								<td align="center">
+									<div style="font-size:12px; line-height:18px; color:#000000; vertical-align:middle;">
+										<span style="color:#ff460a;">경력</span> &nbsp;11년 7개월
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td width="33%" valign="top" align="center" style="border-right:1px solid #dcdcdc; border-left:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; padding: 9px 10px 0 10px;">
+					<span style="font-size:12px; line-height:12px; color:#878787;">희망연봉</span>
+					<div style="font-size:12px; line-height:18px; color:#000000; margin:2px 0 9px 0;">
+						5000~6000만원
+					</div>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" style="font-family:Malgun Gothic, Arial, sans-serif;border: 1px solid #dcdcdc;border-top: 1px solid #9d9d9d;border-bottom:0;border-collapse: collapse;">
+			<tbody>
+				<tr>
+					<th width="15.6%" height="13" align="left" valign="middle" style="padding:6px 0 7px 11px;font-size:12px;color:#828181;background-color:#fafafa;border-bottom: 1px solid #dcdcdc;borde-right:0; font-weight:normal;">직무기술</th>
+					<td align="left" valign="middle" style="padding:6px 0 7px 20px;font-size:11px;color:#333;background-color:#fff;border-bottom: 1px solid #dcdcdc;border-left:0;border-right:1px solid #dcdcdc;">C++, 솔라리스, 리눅스, 워게임, C</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; font-weight:bold; letter-spacing:-2px; vertical-align:baseline; padding:3px 0 9px 0;">기본정보</td>
+						</tr>
+					</table>
+				</td>
+				<td align="right" valign="bottom" style="padding-top:10px;">
+					<table cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td valign="top" height="33">
+								
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:9px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td valign="top" align="center">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td width="28%" align="center" rowspan="7">
+								<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+									<tr>
+										<td width="5px" style="min-width:10px;"></td>
+										<td align="center" style="min-width:64px;" align="center"><img src="http://myphoto.incruit.com/2009/11/오길석.jpg" alt="오길석 사진"  style="width:148px; border:1px solid #dcdcdc;"></td>
+										<td width="5px" style="min-width:10px;"></td>
+									</tr>
+								</table>
+							</td>
+							<td height="31" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">이름</strong></td>
+							<td style="font-size:11px; color:#333333; border-bottom:1px solid #666666; padding-left:10px;"><strong>오길석</strong>(&#21555;&#21513;&#37675;, OH KilSeok)</td>
+						</tr>
+						<tr>
+							<td height="31" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">성별/나이</strong></td>
+							<td style="font-size:11px; color:#333333; border-bottom:1px solid #666666; padding-left:10px;">남 / 1979년생(40세)</td>
+						</tr>
+						<tr>
+							<td height="31" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">주소</strong></td>
+							<td style="font-size:11px; color:#333333; border-bottom:1px solid #666666; padding-left:10px;"><span style="display:inline-block; *display:inline; *zoom:1;">(15880) 서울 양천구 목2동 523-64</span></td>
+						</tr>
+						<tr>
+							<td height="31" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">이메일</strong></td></td>
+							<td style="font-size:11px; color:#333333; border-bottom:1px solid #666666; padding-left:10px;"><a href="mailto:ohkilsuck@naver.com">ohkilsuck@naver.com</a></td>
+						</tr>
+						<tr>
+							<td width="14%" height="31" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">연락처</strong></td>
+							<td width="58%" style="font-size:11px; color:#333333; border-bottom:1px solid #666666; padding-left:10px;">010-7906-6907</td>
+						</tr>
+						<tr>
+							<td height="31" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">홈페이지/SNS</strong></td>
+							<td style="font-size:11px; color:#333333; border-bottom:1px solid #666666; padding-left:10px;">-</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:3px 0 3px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">학력사항</strong>
+								<strong style="font-size:14px; mso-line-height-rule:exactly; line-height:22px; color:#ff460a; letter-spacing:-1px; vertical-align:baseline;">대학원 석사</strong>
+								<strong style="font-size:14px; mso-line-height-rule:exactly; line-height:22px; color:#333333; letter-spacing:-1px; vertical-align:baseline;">졸업</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">강서고등학교</strong>
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:-1px; vertical-align:baseline;">(서울)</strong>
+					&nbsp;<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">1995. 03. 입학 ~ 1998. 02. 졸업</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #666666; padding-left:11px;"><strong>전공</strong></td>
+				<td width="86%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #666666; padding-left:10px;">이과</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">한림대학교</strong>
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:-1px; vertical-align:baseline;">(강원)</strong>
+					&nbsp;<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">1999. 03. 입학 ~ 2006. 02. 중퇴</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; border-bottom:1px solid #dcdcdc;  padding-left:11px; padding-left:11px;"><strong style="font-weight:normal;">전공</strong></td>
+				<td width="86%" style="border-bottom:1px solid #dcdcdc; padding-left:20px;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="26" style="font-size:11px; line-height:22px; color:#333333; padding:5px 0 5px 0;">
+								정보통신공학 (공학계열) 
+								3.17 / 4.5 
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">학점은행제</strong>
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:-1px; vertical-align:baseline;"></strong>
+					&nbsp;<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">2006. 03. 입학 ~ 2006. 07. 졸업</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; border-bottom:1px solid #dcdcdc;  padding-left:11px; padding-left:11px;"><strong style="font-weight:normal;">전공</strong></td>
+				<td width="86%" style="border-bottom:1px solid #dcdcdc; padding-left:20px;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="26" style="font-size:11px; line-height:22px; color:#333333; padding:5px 0 5px 0;">
+								정보통신공학 (공학계열) 
+								3.17 / 4.5 
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">한성대학교 국방과학대학원</strong>
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:-1px; vertical-align:baseline;">(서울)</strong>
+					&nbsp;<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">2014. 03. 입학 ~ 2016. 02. 졸업</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:10px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; border-bottom:1px solid #dcdcdc;  padding-left:11px; padding-left:11px;"><strong style="font-weight:normal;">전공</strong></td>
+				<td width="86%" style="border-bottom:1px solid #dcdcdc; padding-left:20px;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="26" style="font-size:11px; line-height:22px; color:#333333; padding:5px 0 5px 0;">
+								M&S학과&nbsp;석사과정 (공학계열) 
+								4.08 / 4.5 
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:3px 0 3px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">경력사항</strong>
+								 <strong style="font-size:14px; mso-line-height-rule:exactly; line-height:22px; color:#ff460a; letter-spacing:-1px; vertical-align:baseline;">11년 7개월</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">유니텍</strong>&nbsp;
+					<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">2015. 06. ~ 현재 재직중</span>
+					<span style="font-size:13px; mso-line-height-rule:exactly; line-height:23px; color:#ff460a; letter-spacing:-1px; vertical-align:baseline;">(3년 7개월)</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">근무형태</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">계약직</td>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">연봉</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">-</td>
+			</tr>
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">근무부서</strong></td>
+				<td width="86%" colspan="3" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;"><span style="font-size:13px; color:#999;">(팀장)</span></td>
+			</tr>
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; padding-left:11px; border-bottom:1px solid #666666;"><strong style="font-weight:normal;">담당업무</strong></td>
+				<td width="86%" colspan="3" style="padding:6px 0 6px 10px; border-bottom:1px solid #666666;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td style="font-size:12px; line-height:22px; color:#333333; padding-top:5px;">
+								인터넷·IT·통신·모바일·게임&gt;응용 프로그래밍&gt;<strong>C·C++</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">(주)싸이버텍</strong>&nbsp;
+					<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">2009. 01. ~ 2015.06.</span>
+					<span style="font-size:13px; mso-line-height-rule:exactly; line-height:23px; color:#ff460a; letter-spacing:-1px; vertical-align:baseline;">(6년 6개월)</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td height="35" scope="col" align="left" style="font-size:11px; font-family:Dotum, sans-serif; mso-line-height-rule:exactly; line-height:20px; color:#888888; letter-spacing:0; border-bottom:1px solid #dcdcdc;">
+				<span style="color:#c58979;">업종 : </span> 소프트웨어·솔루션·ASP &nbsp;
+				<span style="color:#c58979;">기업형태 :</span> 소기업·일반기업·비상장
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">근무형태</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">정규직</td>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">연봉</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">-</td>
+			</tr>
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">근무부서</strong></td>
+				<td width="86%" colspan="3" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">M&S사업본부</td>
+			</tr>
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; padding-left:11px; border-bottom:1px solid #666666;"><strong style="font-weight:normal;">담당업무</strong></td>
+				<td width="86%" colspan="3" style="padding:6px 0 6px 10px; border-bottom:1px solid #666666;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td style="font-size:12px; line-height:22px; color:#333333; padding-top:5px;">
+								인터넷·IT·통신·모바일·게임&gt;시스템·네트워크·보안&gt;<strong>UNIX·LINUX계열 서버운영·관리</strong>
+							</td>
+						</tr>
+						<tr>
+							<td style="font-size:11px; line-height:16px; color:#666666; padding-bottom:10px; border-bottom:0px solid #dcdcdc;">
+								* 개발<br><br>* C/C++, MFC 프로그래밍<br>2009년 01월 ~ 2011년 06월<br>국방 워게임 개발. (Linux환경에 C++사용)<br>실체계 연동엔진 개발 및 통제도구 개발.(Visual Stdio 2008사용, MFC개발)<br>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">(주)MND</strong>&nbsp;
+					<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">2008. 02. ~ 2008.12.</span>
+					<span style="font-size:13px; mso-line-height-rule:exactly; line-height:23px; color:#ff460a; letter-spacing:-1px; vertical-align:baseline;">(11개월)</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td height="35" scope="col" align="left" style="font-size:11px; font-family:Dotum, sans-serif; mso-line-height-rule:exactly; line-height:20px; color:#888888; letter-spacing:0; border-bottom:1px solid #dcdcdc;">
+				<span style="color:#c58979;">기업형태 :</span> 소기업·일반기업
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; padding-left:11px; border-bottom:1px solid #666666;"><strong style="font-weight:normal;">담당업무</strong></td>
+				<td width="86%" colspan="3" style="padding:6px 0 6px 10px; border-bottom:1px solid #666666;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td style="font-size:12px; line-height:22px; color:#333333; padding-top:5px;">
+								인터넷·IT·통신·모바일·게임&gt;시스템·네트워크·보안&gt;<strong>네트워크구축·운영·관리</strong>
+							</td>
+						</tr>
+						<tr>
+							<td style="font-size:11px; line-height:16px; color:#666666; padding-bottom:10px; border-bottom:0px solid #dcdcdc;">
+								* 개발<br><br>* Solaris, Linux, Window 서버 시스템 구축, 시스템 운영<br>2008년 02월 ~ 2008년 12월<br>국방 시뮬레이션 워게임 지원업무. <br>오산, 대구, 평택, 진주, 서울에 네트워크 구성 및 시스템 구축.<br>중앙 Tech Room에서 각 지역에 분산되어 있는 시스템을 원격 통제하여  War Game Control 및 Trouble Shooting.<br>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="border-bottom: 1px solid #c8c8c8;padding:10px 0 4px 0;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="bottom">
+					<strong style="font-size:13px; mso-line-height-rule:exactly; line-height:19px; color:#ff460a; font-weight:bold; letter-spacing:-2px; vertical-align:baseline;">(주)아이큐트</strong>&nbsp;
+					<span style="font-size:11px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:0; vertical-align:baseline;">2007. 05. ~ 2007.12.</span>
+					<span style="font-size:13px; mso-line-height-rule:exactly; line-height:23px; color:#ff460a; letter-spacing:-1px; vertical-align:baseline;">(8개월)</span>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td height="35" scope="col" align="left" style="font-size:11px; font-family:Dotum, sans-serif; mso-line-height-rule:exactly; line-height:20px; color:#888888; letter-spacing:0; border-bottom:1px solid #dcdcdc;">
+				<span style="color:#c58979;">업종 : </span> 컴퓨터·하드웨어·장비&nbsp;
+				<span style="color:#c58979;">기업형태 :</span> 소기업·일반기업·비상장
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:5px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">근무형태</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">정규직</td>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">연봉</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">-</td>
+			</tr>
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; padding-left:11px; border-bottom:1px solid #666666;"><strong style="font-weight:normal;">담당업무</strong></td>
+				<td width="86%" colspan="3" style="padding:6px 0 6px 10px; border-bottom:1px solid #666666;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td style="font-size:12px; line-height:22px; color:#333333; padding-top:5px;">
+								인터넷·IT·통신·모바일·게임&gt;전산·IT기술지원&gt;<strong>H/W 엔지니어</strong>
+							</td>
+						</tr>
+						<tr>
+							<td style="font-size:11px; line-height:16px; color:#666666; padding-bottom:10px; border-bottom:0px solid #dcdcdc;">
+								* 개발<br><br>* 하드웨어 컨설팅, 구축, 유지보수, 장애처리<br>2007년 05월 ~ 2007년 12월<br>Server Operation System Install & Trouble Shooting.<br>Cluster, Network Load Balancing, Raid, and so on. Consulting Work.<br>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top">
+		<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tbody>
+			<tr>
+				<td height="28">
+					<strong style="font-size:14px; mso-line-height-rule:exactly; line-height:19px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">경력기술서</strong>
+				</td>
+			</tr>
+		</tbody></table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding:0 0 9px 0;">
+		<table valign="bottom" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td valign="top" style="background:#f7f7f7; border:1px solid #dcdcdc; padding:10px 10px 7px 10px;">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tbody>
+						<tr>
+							<td style="font-size:12px; mso-line-height-rule:exactly; line-height:19px; color:#333333; letter-spacing:-1px; vertical-align:baseline;">
+								- 근무 경력 -<br><br>회 사 명 : MND(주)<br>근무기간 : ＇08.02~＇08.12<br>담당직책 : 연구원<br>프로젝트 : JWSC 태극훈련 기술지원관 용역사업<br>담당업무 : 시스템 관리, 연동 관리<br>상세업무 : 태극 훈련 시스템 운영 및 관리(SUN Server Operation), 보안, Cisco 장비 네트워크 설정, 서버 점검<br><br>* Solaris System<br> - 서버 설치, 네트워크설정, 셀설정, 백업, NFS설정, 각종 패치 및 패키지 설치, 장애시 복구, 소프트웨어 유지보수. <br>* Linux System <br> - 서버설치, 네트워크설정, 패치설치, 백업, 소프트웨어 개발.<br>* NETWORK<br> - CISCO Router Install<br>* MS-Word, MS-Excel, MS-PowerPoint, HWP<br>* HP Proriant계열 서버 운영<br>* SUN 서버 운영<br><br>회 사 명 : 싸이버텍(주)<br>근무기간 : ＇08.12~＇09.11<br>담당직책 :  사원<br>프로젝트 : JWSC 태극훈련 기술지원관 용역사업<br>담당업무 : 시스템 관리, 연동 관리<br>상세업무 : 태극 훈련 시스템 운영 및 관리(SUN Server Operation), 보안, Cisco 장비 네트워크 설정, 서버 점검<br><br>* Solaris System<br> - 서버 설치, 네트워크설정, 셀설정, 백업, NFS설정, 각종 패치 및 패키지 설치, 장애시 복구, 소프트웨어 유지보수. <br>* Linux System <br> - 서버설치, 네트워크설정, 패치설치, 백업, 소프트웨어 개발.<br>* NETWORK<br> - CISCO Router Install<br>* MS-Word, MS-Excel, MS-PowerPoint, HWP<br>* HP Proriant계열 서버 운영<br>* SUN 서버 운영<br><br>회 사 명 : 싸이버텍(주)<br>근무기간 : ＇09.12~＇12.12<br>담당직책 :  과장<br>프로젝트 : 태극JOS 모델 개발 및 연동사업<br>담당업무 : 모델개발<br>상세업무 : 워게임 모델 해군 모의엔진 개발. 연동 통제도구 개발.<br>* SIM Script(솔라리스 환경) , C/C++(리눅스 환경) 워게임 엔진 개발, Star Uml, Oracle DB, Soket 통신<br>* MFC(Windows 환경) 연동통제도구 개발<br><br>회 사 명 : 싸이버텍(주)<br>근무기간 : ＇13.01~＇13.12<br>담당직책 :  과장<br>프로젝트 : 대화력전 모델개발<br>담당업무 : 모델개발<br>상세업무 : 포병사격 구현<br>* C/C++(리눅스 환경) 워게임 엔진 개발<br><br>회 사 명 : 싸이버텍(주)<br>근무기간 : ＇14.01~＇15.06<br>담당직책 :  과장<br>프로젝트 :  태극JOS 모델 개발 및 연동사업<br>담당업무 :  연동체계 운영 및 관리<br>상세업무 : 한미연합연습 연동체계 운영 및 관리<br>* C/C++(리눅스 환경) 환경 워게임모델 연동운영<br>* RTI연동, Oracle DB<br><br>회 사 명 : 유니텍(주)<br>근무기간 : ＇15.06~＇17.12<br>담당직책 :  부장<br>프로젝트 :  C4ISR 분석모델개발<br>담당업무 :  모델개발<br>상세업무 :  에이전트 모델링, 교전모델 개발(지상전)<br>* C/C++(윈도우환경), 알티베이스 DB
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:0 0 6px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">자격증</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:9px;">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<thead>
+				<tr>
+					<th width="40%" height="31" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px; padding-left:5px;">
+						<strong style="font-weight:normal;">자격증명</strong>
+					</th>
+					<th width="15%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">취득일자</strong>
+					</th>
+					<th width="15%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">합격구분</strong>
+					</th>
+					<th width="30%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">발행처</strong>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; padding-left:5px;">
+						<span>CCNA
+						</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>2007. 01.</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>최종합격</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>CISCO</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; padding-left:5px;">
+						<span>정보처리기사
+						</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>2006. 06.</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>최종합격</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>한국산업인력공단</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; padding-left:5px;">
+						<span>문서실무사
+						</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>2002. 10.</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>최종합격</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>한국정보관리협회</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:0 0 6px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">컴퓨터 활용능력</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:9px;">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<thead>
+				<tr>
+					<th width="40%" height="31" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px; padding-left:5px;">
+						<strong style="font-weight:normal;">종류</strong>
+					</th>
+					<th width="30%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">보유능력</strong>
+					</th>
+					<th width="30%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">상세내용</strong>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0;  padding-left:5px;">
+						<span>OFFICE 문서</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>Microsoft Excel™</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>전문가수준</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0;  padding-left:5px;">
+						<span>하드웨어</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>HP 서버 구축/관리</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>보통수준</span>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0;  padding-left:5px;">
+						<span>프로그래밍</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>C/C++</span>
+					</td>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; ">
+						<span>전문가수준</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:0 0 6px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">취업우대 및 특이사항</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:9px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tbody>
+			<tr>
+				<td scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:11px;"><strong style="font-weight:normal;">병역사항</strong></td>
+				<td colspan="3" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #dcdcdc; padding-left:10px;">2000. 04. 입대 ~ 2002. 10. 제대
+						 (공군, 행정, 병장)</td>
+			</tr>
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">보훈대상</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #666666; padding-left:10px;">보훈비대상</td>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:6px 0 6px 0; border-bottom:1px solid #666666; padding-left:11px;"><strong style="font-weight:normal;">장애여부</strong></td>
+				<td width="36%" style="font-size:11px; color:#333333; padding:6px 0 6px 0; border-bottom:1px solid #666666; padding-left:10px;">비장애인</td>
+			</tr>
+		</tbody></table>
+	</td>
+</tr>
+
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:0 0 6px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">교육수료사항</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:9px;">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<thead>
+				<tr>
+					<th width="40%" height="31" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px; padding-left:5px;">
+						<strong style="font-weight:normal;">과정명</strong>
+					</th>
+					<th width="30%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">교육기간</strong>
+					</th>
+					<th width="30%" align="left" scope="row" style="font-size:12px; color:#888888; border-bottom:1px solid #666666; background:#f9f9f9; letter-spacing:-1px;">
+						<strong style="font-weight:normal;">교육기관</strong>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td align="left" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0; padding-left:5px;">
+						<span>보안 전문가 과정</span>
+					</td>
+					<td align="align="left"" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0;">
+						<span>2006. 05. ~ 2007. 02. <span style="color:#ff460a;">(10개월)</span></span>
+					</td>
+					<td align="align="left"" style="font-size: 11px;color:#333333;border-bottom:1px solid #666666;letter-spacing:-1px;padding: 7px 0 8px 0;">
+						<span>ITBANK</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:0 0 6px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">어학능력</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding-bottom:9px;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif; border-bottom:1px solid #dcdcdc;">
+			<tr>
+				<td width="14%" scope="col" align="left" style="background-color:#f9f9f9; font-size:12px; line-height:18px; color:#888888; letter-spacing:-1px; padding:9px 0 10px 0; padding-left:11px;"><strong style="font-weight:normal;">어학능력</strong></td>
+				<td width="86%" style="padding-left:10px;">
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						
+						<tr>
+							<td height="16" style="font-size:11px; line-height:22px; color:#333333; padding:4px 0 8px 0;">영어
+								<span style="font-size:11px;">(기초회화 수준 / 기초독해 수준 / 기초작문 수준)</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+
+
+<tr>
+	<td valign="top" style="border-bottom: 2px solid #909090;">
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td height="41" valign="bottom">
+					<table valign="bottom" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td height="22" style="padding:0 0 6px 0;">
+								<strong style="font-size:18px; mso-line-height-rule:exactly; line-height:22px; color:#000000; letter-spacing:-2px; vertical-align:baseline;">자기소개서</strong>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top" style="padding:7px 10px 9px 10px;border-bottom: 1px solid #494949;">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td valign="top" colspan="3" style="font-size:11px; mso-line-height-rule:exactly; line-height:20px; color:#333333; letter-spacing:-1px;">게임에 관심이 많아 컴퓨터 관련된 일을 생각하고 있었습니다. 취업을 위해 CCNA, 정보처리기사 자격을 취득하였고, 보안관련 실무과정을 학원에서 공부했습니다.<BR><BR>첫 회사는 지인의 추천으로 하드웨어 납품업체에 입사하게 되었습니다. 약 1년동안을 서버와 씨름하면서 지냈는데, 제가 공부하고 생각하던 일과는 거리가 멀어 시스템관리자 업무를 찾게 되었습니다.<BR><BR>현재는 국방부 워게임 관련 일을 하는 업체에서 근무하고 있습니다. 1년 동안은 네트워크 구축 및 시스템 구축, 시스템 운영관련 업무를 하였고, 그 후에는 워게임 엔진 개발 및 연동체계 개발업무를 맡고 있습니다.<BR><BR>저의 장점은 하드웨어 구성, 시스템 관리 및 네트워크 업무는 물론 프로그램 개발까지 모든 분야에 프로젝트를 완료한 경험이 있습니다. 또한, 모든 업무에 전체 시스템 파악이 탁월해서 제 업무를 어떻게 진행해야 하는지에 대한 판단도 빠릅니다. 맡은 업무는 100% 해냈고, 회사 업무 분위기를 중요시 생각하기 때문에 회사 동료들과의 인간관계도 좋은 편입니다. <BR><BR>어떤 일에도 "열심히"보단 "잘"하려고 합니다. 믿고 맡겨 주시면 실망 시키지 않습니다. 감사합니다.</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td style="padding:10px 0 39px 0;">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+			<tr>
+				<td align="center" height="28" style="font-size:12px; mso-line-height-rule:exactly; line-height:20px; color:#333333; letter-spacing:-1px; vertical-align:baseline;">
+					<strong>위의 모든 기재사항은 사실과 다름없음을 확인합니다.</strong>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" height="22" style="font-size:11px; mso-line-height-rule:exactly; line-height:18px; color:#333333; letter-spacing:-1px; padding:0 0 5px 0;">
+					작성자 : 오길석
+				</td>
+			</tr>
+			<tr>
+				<td style="background:#f7f7f7; border:1px solid #dcdcdc;">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0" style="font-family:Malgun Gothic, Arial, sans-serif;">
+						<tr>
+							<td valign="top" style="font-size:11px; font-family:Dotum, sans-serif; mso-line-height-rule:exactly; line-height:20px; color:#999999; vertical-align:baseline; padding:18px 25px 17px 25px;">
+본 정보는 개인의 이력서 정보이며,인크루트㈜는 기재된 내용에 대한 책임을 지지 않습니다.<br> 본 정보는 인크루트㈜의 동의없이 재배포할 수 없으며, 정보통신부 고시 제 2005-18호에 따라 개인정보가 담긴 이력서 등을 불법유출 및 배포하게 되면 법에 따라 책임을 지게 되니 양지하시기 바랍니다.
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+			<tr><td><ul style="width:780px; height:1px; padding:0; margin:0;"></ul></td></tr>
+		</tbody>
+		</table>
+	</div>
+	</td>
+</tr>
+</tbody>
+</table>
+</body>
+<script type="text/javascript">
+//<![CDATA[
+	function _trk_escape(_str) {}
+	function _trk_setCookie(name,value,expire) {}
+	function _trk_getCookie(name) {}
+	function _trk_getParameter(name) {}
+	function _trk_make_code(_TRK_SERVER,_TRK_U) {}
+	function _trk_flashContentsView(_TRK_CP) {}
+	function _trk_clickTrace(_TRK_CKFL,_TRK_CKDATA) {}
+	function _trk_adClick( adSvr, svcCode, adCode ) {}
+	function _trk_clickPage(paraDp,paraDt) {}
+	function _trk_make_codeGenType(_TRK_SERVER,_TRK_U, paraDp, paraDt) {}
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-1707882-1', 'auto');ga('set', 'dimension1', 'Y');ga('set', 'dimension2', document.location.host);ga('set', 'dimension3', document.location.pathname);ga('require', 'displayfeatures');ga('send', 'pageview');
+_atrk_opts = { atrk_acct:"XznHh1aIE7002X", domain:"incruit.com",dynamic: true};(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+//]]>
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=XznHh1aIE7002X" style="display:none" height="1" width="1" alt="" ></noscript>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1067914317;
+var google_conversion_label = "cOb0CJmvjFcQzaic_QM";
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1067914317/?value=1.00&amp;currency_code=KRW&amp;label=cOb0CJmvjFcQzaic_QM&amp;guid=ON&amp;script=0"/></div></noscript><script type="text/javascript" src="//sc.11h11m.net/s/E795.js"></script>
+<script type="text/javascript" defer src="//s.incru.it/gjs/uservoice.v2.min.js?20181206101700"></script>
+<script>
+(function() {var as = document.createElement('script'); as.type = 'text/javascript'; as.async = false; as.src = '//s.incru.it/gjs/v2/incruit.channel.js?20181206101700';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+</script>
+<script type='text/javascript'> 
+function mobRf(){var rf = new EN();rf.setSSL(true);rf.sendRf();}
+</script>
+<script type="text/javascript" src="https://cdn.megadata.co.kr/js/enliple_min2.js" async="true;" onload="mobRf()"></script>
+	<script type="text/javascript" defer src="//s.incru.it/gjs/v2/incruit.footer.scrolltop.min.js?20181206101700"></script>
+
+	
+			<!-- <script type="text/javascript">
+				var NeoclickConversionDctSv="type=2,orderID=,amount=";
+				var NeoclickConversionAccountID="8444";
+			</script>
+			<script type="text/javascript" src="//ck.ncclick.co.kr/NCDC_V2.js"></script> -->
+		
+			<!-- <script type="text/javascript">
+				var NeoclickConversionDctSv="type=2,orderID=,amount=";
+				var NeoclickConversionAccountID="8444";
+				notautoload = false;
+			</script>
+			<script type="text/javascript" src="//ck.ncclick.co.kr/NCDC_V2.js"></script> -->
+		
+	<!-- <script type="text/javascript" src="/g_common/clientscript/v2/resumeinputlayer.js?20181206101700"></script> -->
+	
+</html>
+
